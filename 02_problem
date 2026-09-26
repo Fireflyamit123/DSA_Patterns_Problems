@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    
+    for(int i=1; i<=4; i++){ //outer loop for printing rows
+        char ch= 'A'; // initialization in the middle of two loops because always starts from char 'A'
+        for(int j=1; j<=4; j++){ //inner loop for printing every row columns
+            cout << ch ;
+            ch++;
+        }
+        cout << endl;
+    }
+    return 0;
+}
+/*
+ABCD
+ABCD
+ABCD
+ABCD
+*/
