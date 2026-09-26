@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+int num = 1;
+    for(int i=1; i<=3; i++){ //outer loop for printing rows
+        for(int j=1; j<=3; j++){ //inner loop for printing every row columns
+            cout << num;
+            num++; //using different variable for increasing number in each line
+            
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+/*
+123
+456
+789
+*/
